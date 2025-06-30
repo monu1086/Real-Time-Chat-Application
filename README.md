@@ -32,20 +32,20 @@ ConnectSphere is a full-stack MERN application for real-time one-on-one and grou
 
 ### Steps
 1. **Clone the Repository**:
-   ```bash
+```bash
    git clone https://github.com/monu1086/connectsphere.git
    cd connectsphere
-   
+```
 2. **Install Frontend Dependencies**:
 ```bash
 cd client
 npm install
 ```
 3. **Install Backend Dependencies**:
-   ```bash
+```bash
    cd ../server
    npm install
-   ```
+```
 4. **Set Up Environment Variables**:
 - Create .env files in client/ and server/ with:
 ```bash
