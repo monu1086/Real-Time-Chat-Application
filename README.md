@@ -1,6 +1,6 @@
 # ConnectSphere: Real-Time Chat Application
 
-![ConnectSphere Demo](client/src/assets/demo_screenshot.png)
+
 
 [![React](https://img.shields.io/badge/React-18.2-blue)](https://reactjs.org)
 [![Node.js](https://img.shields.io/badge/Node.js-16.x-green)](https://nodejs.org)
@@ -40,3 +40,31 @@ ConnectSphere is a full-stack MERN application for real-time one-on-one and grou
 ```bash
 cd client
 npm install
+```
+3. **Install Backend Dependencies**:
+   ```bash
+   cd ../server
+   npm install
+   ```
+4. **Set Up Environment Variables**:
+- Create .env files in client/ and server/ with:
+```bash
+# client/.env
+REACT_APP_API_URL=http://localhost:5000
+
+# server/.env
+MONGODB_URI=mongodb://localhost/connectsphere
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+```
+5. **Run the Application**:
+- Backend: cd server && npm start
+- Frontend: cd client && npm start
+- Open http://localhost:3000 in a browser.
+
+
+
+        
+
